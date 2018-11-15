@@ -21,7 +21,7 @@ int main()
 		frequency[ASCII] = 0;
 	}
 
-	inFile.open("clear+Mary.txt", ios::in); //Reads file
+	inFile.open("ASCII.txt", ios::in); //Reads file
 
 	if (inFile.fail()) //Check for error opening the file
 	{
