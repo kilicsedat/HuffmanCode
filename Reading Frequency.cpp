@@ -1,5 +1,6 @@
-// 
-//
+///
+It creates a freuency text file from the given text.
+///
 
 #include "pch.h"
 #include<iostream>
