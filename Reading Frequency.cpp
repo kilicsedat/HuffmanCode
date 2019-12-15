@@ -7,7 +7,7 @@ It creates a freuency text file from the given text.
 #include<fstream>
 #include<iomanip>
 
-using namespace std;
+#using namespace std;
 
 int main()
 {
