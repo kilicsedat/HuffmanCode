@@ -17,7 +17,7 @@ int main()
 	int frequency[128];
 
 
-	for (int ASCII = 0; ASCII < 128; ASCII++) //Loop through all the ASCII characters to get the frequency of each
+	for (int ASCII = 0; ASCII < 128; ASCII++) //looks for the ASCI charcters
 	{
 		frequency[ASCII] = 0;
 	}
