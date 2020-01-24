@@ -27,6 +27,8 @@ int main()
 	if (inFile.fail()) //Check for error opening the file
 	{
 		cout << "Error: File not found!" << endl << endl;
+	
+	
 	}
 	else
 	
