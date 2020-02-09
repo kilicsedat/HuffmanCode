@@ -4,8 +4,9 @@ It creates a freuency text file from the given text.
 
 #include "pch.h"
 #include<iostream>
-#include<fstream>
 #include<iomanip>
+#include<fstream>
+
 
 using namespace std;
 
