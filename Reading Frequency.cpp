@@ -52,13 +52,13 @@ int main()
 	inFile.close();
 	
 	ofstream mfile;
-	mfile.open("freq.txt");
+	mfile.open("frequency.txt");
 	
 	for (char count = '+'; count <= 'z'; count++)
 	{
 		if (frequency[count] != 0)
 		{
-			mfile << count << setw(4) << frequency[count] << endl; // puts nonzero characters in the new text file freq.txt
+			mfile << count << setw(4) << frequency[count] << endl; // puts nonzero characters in the new text file frequency.txt
 		}
 	}
 	return 0;
