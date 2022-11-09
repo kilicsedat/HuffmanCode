@@ -7,45 +7,33 @@ It creates a freuency text file from the given text.
 #include<iomanip>
 #include<fstream>
 
-
 using namespace std;
 
 int main()
 {
 	fstream inFile;
 	char oneChar;
-
 	int frequency[128];
-
 
 	for (int ASCII = 0; ASCII < 128; ASCII++) //looks for the ASCI charcters
 	{
-		frequency[ASCII] = 0;
-	}
+		frequency[ASCII] = 0; }
 
 	inFile.open("ASCII.txt", ios::in); //Reads file
 
 	if (inFile.fail()) //Check for error opening the file
 	{
-		cout << "Error: File not found!" << endl << endl;
-	
-	
-	}
+		cout << "Error: File not found!" << endl << endl; }
 	else
-	
-	
 	{
 		oneChar = inFile.get();
-
-		while (inFile.eof() == false) //End of file
-		{
+		while (inFile.eof() == false) //End of file{
 			if (oneChar != ' ')
 			{
 				frequency[oneChar]++; //When not empty character
 			}
 			oneChar = inFile.get();
-		
-		}
+	}
 	
 	}
 
