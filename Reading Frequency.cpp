@@ -18,12 +18,14 @@ int main()
 	for (int ASCII = 0; ASCII < 128; ASCII++) //looks for the ASCI charcters
 	{
 		frequency[ASCII] = 0; }
-
+		
+		
 	inFile.open("ASCII.txt", ios::in); //Reads file
 
 	if (inFile.fail()) //Check for error opening the file
 	{
 		cout << "Error: File not found!" << endl << endl; }
+	
 	else
 	{
 		oneChar = inFile.get();
